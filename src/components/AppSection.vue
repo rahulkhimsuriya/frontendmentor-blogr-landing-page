@@ -1,5 +1,5 @@
 <template>
-  <section class="py-20">
+  <section class="py-12 lg:py-20">
     <slot />
   </section>
 </template>

@@ -51,14 +51,48 @@
         </div>
       </div>
     </AppSection>
+
+    <AppSection>
+      <div class="px-4 mt-8 flex flex-col lg:flex-row bg-blue-dark">
+        <div class="lg:flex-1 h-auto lg:h-0 -mt-28">
+          <img
+            :src="illustrationPhones"
+            :style="{
+              background: `url(${bgPatterenCircle})`,
+              'background-position': '-7rem, 0rem',
+              'background-repeat': 'no-repeat',
+              'background-size': 'cover',
+            }"
+            alt="illustration Phones"
+            class="mx-auto"
+          />
+        </div>
+
+        <div class="lg:flex-1 py-20 text-center lg:text-left">
+          <h3 class="text-3xl text-white font-semibold">
+            State of the Art Infrastructure
+          </h3>
+          <p
+            class="max-w-md mx-auto lg:mx-0 mt-4 text-sm text-gray-300 opacity-80"
+          >
+            With reliability and speed in mind, worldwide data centers provide
+            the backbone for ultra-fast connectivity. This ensures your site
+            will load instantly, no matter where your readers are, keeping your
+            site competitive.
+          </p>
+        </div>
+      </div>
+    </AppSection>
   </main>
 </template>
 
 <script setup>
 import AppHeader from './components/AppHeader.vue'
 import AppSection from './components/AppSection.vue'
+import bgPatterenCircle from './assets/images/bg-pattern-circles.svg'
 import illustrationEditorDesktop from './assets/images/illustration-editor-desktop.svg'
-import illustrationEditorMobile from './assets/images/illustration-editor-mobile.svg'
+import illustrationLaptopPhone from './assets/images/illustration-laptop-mobile.svg'
+import illustrationPhones from './assets/images/illustration-phones.svg'
 </script>
 
 <style></style>
