@@ -205,7 +205,7 @@
       </nav>
 
       <div class="py-12 md:py-20 text-center flex items-center flex-col">
-        <h2 class="text-center text-2xl md:text-5xl">
+        <h2 class="text-center text-3xl md:text-5xl">
           A modern <br class="inline md:hidden" />
           publishing platform
         </h2>
