@@ -83,6 +83,57 @@
         </div>
       </div>
     </AppSection>
+
+    <AppSection>
+      <div class="px-4 mt-0 lg:mt-8 flex flex-col lg:flex-row">
+        <div class="block lg:hidden mb-8">
+          <img
+            :src="illustrationLaptopMobile"
+            alt="illustration Laptop Desktop"
+            class="mx-auto"
+          />
+        </div>
+
+        <div
+          class="hidden lg:block overflow-hidden lg:flex-1 lg:-ml-48 mb-8 mx-auto"
+        >
+          <img
+            :src="illustrationLaptopDesktop"
+            alt="illustration Laptop Desktop"
+            class="mx-auto"
+          />
+        </div>
+
+        <div
+          class="flex-1 flex-shrink-0 space-y-8 flex flex-col text-center lg:text-left mx-auto lg:mx-0 justify-center"
+        >
+          <div class="max-w-md lg:ml-24">
+            <h4 class="text-2xl text-gray-800 font-semibold">
+              Free, open, simple
+            </h4>
+            <p class="mt-4 text-sm text-gray-600 opacity-80">
+              Blogr is a free and open source application backed by a large
+              community of helpful developers. It supports features such as code
+              syntax highlighting, RSS feeds, social media integration,
+              third-party commenting tools, and works seamlessly with Google
+              Analytics. The architecture is clean and is relatively easy to
+              learn.
+            </p>
+          </div>
+
+          <div class="max-w-md lg:ml-24">
+            <h4 class="text-2xl text-gray-800 font-semibold">
+              Powerful tooling
+            </h4>
+            <p class="mt-4 text-sm text-gray-600 opacity-80">
+              Batteries included. We built a simple and straightforward CLI tool
+              that makes customization and deployment a breeze, but capable of
+              producing even the most complicated sites.
+            </p>
+          </div>
+        </div>
+      </div>
+    </AppSection>
   </main>
 </template>
 
@@ -91,7 +142,8 @@ import AppHeader from './components/AppHeader.vue'
 import AppSection from './components/AppSection.vue'
 import bgPatterenCircle from './assets/images/bg-pattern-circles.svg'
 import illustrationEditorDesktop from './assets/images/illustration-editor-desktop.svg'
-import illustrationLaptopPhone from './assets/images/illustration-laptop-mobile.svg'
+import illustrationLaptopDesktop from './assets/images/illustration-laptop-desktop.svg'
+import illustrationLaptopMobile from './assets/images/illustration-laptop-mobile.svg'
 import illustrationPhones from './assets/images/illustration-phones.svg'
 </script>
 
