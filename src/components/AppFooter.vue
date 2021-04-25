@@ -67,4 +67,8 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+footer {
+  border-top-right-radius: 3rem;
+}
+</style>
