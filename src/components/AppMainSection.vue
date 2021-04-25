@@ -49,7 +49,10 @@
   </AppSection>
 
   <AppSection>
-    <div class="px-4 mt-8 flex flex-col lg:flex-row bg-blue-dark">
+    <div
+      class="px-4 mt-8 flex flex-col lg:flex-row bg-blue-dark"
+      style="border-top-right-radius: 3rem; border-bottom-left-radius: 3rem"
+    >
       <div class="lg:flex-1 h-auto lg:h-0 -mt-28">
         <img
           :src="illustrationPhones"
